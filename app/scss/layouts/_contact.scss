@@ -1,0 +1,28 @@
+.contact {
+    .body {
+        @media screen and (max-width: $large) {
+            padding-bottom: 50px;
+        }
+    }
+    h2 {
+        font-size: 24px !important;
+        font-weight: bold;
+        text-transform: none;
+        margin-bottom: -5px;
+
+        a {
+            color: $orange;
+            font-size: 18px;
+            margin-bottom: 25px;
+            display: inline-block;
+        }
+    }
+    p {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+#gform_fields_1 {
+    display: flex;
+    flex-wrap: wrap;
+}
